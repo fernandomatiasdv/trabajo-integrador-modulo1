@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan';
+}
+
+body{
+    padding: 20px;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.displaycolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.displayrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+.titulo{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+
+.parrafo{
+    margin-top: 30px;
+    color: #927B91;
+    text-align: center;
+
+    line-height: 1.8rem;
+
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f7f2f7;
+    padding: 15px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 13px;
+    color: hsl(300, 43%, 22%);
+}
+
+.card-general{
+    padding: 20px;
+    width: 100%;
+    background-color: hsl(303, 10%, 53%);
+
+}
+
+.avatar{
+    border-radius: 50%;
+}
+.card-2{
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px){
+    .card-3{
+        display: flex;
+        flex-direction: row;
+    }
+    .mt-25{
+        margin-left: 25px;
+    }
+    .card-2{
+        width: 50%;
+    }
+    .card-1{
+        width: 50%;
+    }
+    .mt-10{
+        margin-top: 0;
+    }
+
+    .tarjeta{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .posicion1{
+        position: relative;
+        left: 75px;
+    }
+    .posicion2{
+        position: relative;
+        left: 150px;
+    }
+}
